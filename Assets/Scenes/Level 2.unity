@@ -488,6 +488,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Global Light 2D
       objectReference: {fileID: 0}
+    - target: {fileID: 8028321299593601955, guid: f9c8903694f79475ba8bb59cc6e1afb9, type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8028321299593601955, guid: f9c8903694f79475ba8bb59cc6e1afb9, type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.data[0]
+      value: -1270528651
+      objectReference: {fileID: 0}
+    - target: {fileID: 8028321299593601955, guid: f9c8903694f79475ba8bb59cc6e1afb9, type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.data[1]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8028321299593601955, guid: f9c8903694f79475ba8bb59cc6e1afb9, type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.data[2]
+      value: -417888177
+      objectReference: {fileID: 0}
+    - target: {fileID: 8028321299593601955, guid: f9c8903694f79475ba8bb59cc6e1afb9, type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.data[3]
+      value: -734999321
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

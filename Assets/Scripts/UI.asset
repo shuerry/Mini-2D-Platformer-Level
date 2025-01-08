@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: UI
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":1124.227,"y":-1726.453},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{"name":{"$content":"LoadLevel","$type":"System.String"}},"position":{"x":972.0,"y":-1836.0},"guid":"952f44ef-a131-4270-83ec-d422a5954b44","$version":"A","$type":"Unity.VisualScripting.BoltUnityEvent","$id":"9"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"Level","$type":"System.String"},"object":null},"position":{"x":972.0,"y":-1728.0},"guid":"abf28224-0480-4f1b-901d-b9fc1d869604","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"11"},{"chainable":false,"parameterNames":["sceneName","mode"],"member":{"name":"LoadScene","parameterTypes":["System.String","UnityEngine.SceneManagement.LoadSceneMode"],"targetType":"UnityEngine.SceneManagement.SceneManager","targetTypeName":"UnityEngine.SceneManagement.SceneManager","$version":"A"},"defaultValues":{"%sceneName":{"$content":"","$type":"System.String"},"%mode":{"$content":"Single","$type":"UnityEngine.SceneManagement.LoadSceneMode"}},"position":{"x":1164.0,"y":-1788.0},"guid":"236fe306-674a-45e5-ad3f-c60d4555ff6c","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"13"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"13"},"destinationKey":"enter","guid":"cb2d78f9-83d0-48c1-963d-6f40b615bcb6","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"value","destinationUnit":{"$ref":"13"},"destinationKey":"%sceneName","guid":"b17655de-56d2-4a6c-9dbc-bc4f52b1d119","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
