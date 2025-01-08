@@ -42,3 +42,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Powerups
+    uniqueID: 3877079119
+    locked: 0
+  - name: Traps
+    uniqueID: 3559967975
+    locked: 0
